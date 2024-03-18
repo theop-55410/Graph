@@ -10,7 +10,7 @@ function resize() {
 }
 //i do not understand these commands or why they work the way they do
 //i guess they are other initial declarations?
-window.onload = drawPoints; //this initializes the whole thing -- thus at the top. we've been waiting on this one for a while.
+//window.onload = drawPoints; //this initializes the whole thing -- thus at the top. we've been waiting on this one for a while.
 window.onresize = resize;
 resize();
 //window.onmousemove = move;

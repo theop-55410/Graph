@@ -1,4 +1,4 @@
-
+//import m from "../get_nodes_to_show/m";
 
 
 
@@ -15,5 +15,9 @@ function resize() {
 window.onresize = resize;
 resize();
 
+window.onclick = click;
 
+function click(c) {
+    console.log("click")
+}
 
